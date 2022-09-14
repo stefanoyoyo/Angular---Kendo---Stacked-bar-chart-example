@@ -18,5 +18,10 @@ Qui 1 va nella prima serie (Y1), 2 va nella seconda (Y2) ecc..
 # COME FUNZIONANO GLI STACK 
 Gli stack sono delle sotto-serie all'interno della serie. 
 Stack indicica che i valori in [data] devono essere disposti
-nel primo o nel secondo gruppo. 
+nella prima, seconda, ..ecc.. sottoserie. 
+**ESEMPIO**
+Se in un elemento <kendo-chart-series> indico che gli elementi in 
+[data] stanno nel [stack]="{ group: 'a' } indico che gli elementi
+stanno nella sotto-serie (stack) a. 
+Vale a dire che li metto nell'insieme Y1,1 !
 
