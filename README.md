@@ -22,6 +22,7 @@ nella prima, seconda, ..ecc.. sottoserie.
 **ESEMPIO**
 Se in un elemento <kendo-chart-series> indico che gli elementi in 
 [data] stanno nel [stack]="{ group: 'a' } indico che gli elementi
+(che stanno nella [data] di <kendo-chart-series>)
 stanno nella sotto-serie (stack) a. 
 Vale a dire che li metto nell'insieme Y1,1 !
 
