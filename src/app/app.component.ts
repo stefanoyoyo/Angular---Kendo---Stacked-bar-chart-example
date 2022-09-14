@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
 
 @Component({
-    selector: 'my-app',
-    template: `
+  selector: 'my-app',
+  template: `
       <kendo-chart>
         <kendo-chart-series>
           <!--blue -->
@@ -14,9 +14,8 @@ import { Component } from '@angular/core';
           <!--Green -->
           <kendo-chart-series-item type="bar" [data]="[1, 1, 2]" [stack]="{ group: 'b' }">
           </kendo-chart-series-item>
-        </kendo-chart-series>
+        </kendo-chart-series> 
       </kendo-chart>
-    `
+    `,
 })
-export class AppComponent {
-}
+export class AppComponent {}
