@@ -5,14 +5,14 @@ import { Component } from '@angular/core';
   template: `
       <kendo-chart>
         <kendo-chart-series>
-          <!--blue -->
-          <kendo-chart-series-item type="bar" [stack]="{ group: 'a' }" [data]="[1, 2, 3]">
+          <!--blue (Y1)-->
+          <kendo-chart-series-item type="bar" [data]="[1, 2, 3]" >
           </kendo-chart-series-item>
-          <!--Yellow -->
-          <kendo-chart-series-item type="bar" [data]="[1, 1, 3]" [stack]="{ group: 'a' }">
+          <!--Yellow (Y2)-->
+          <kendo-chart-series-item type="bar" [data]="[1, 1, 3]" >
           </kendo-chart-series-item>
-          <!--Green -->
-          <kendo-chart-series-item type="bar" [data]="[1, 1, 2]" [stack]="{ group: 'b' }">
+          <!--Green (Y3)-->
+          <kendo-chart-series-item type="bar" [data]="[1, 1, 2]" >
           </kendo-chart-series-item>
         </kendo-chart-series> 
       </kendo-chart>
